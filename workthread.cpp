@@ -91,7 +91,7 @@ void ethernet_protocol_packet_callback_A(u_char * arg, const struct pcap_pkthdr 
         #endif
 
         an_buffer_idx_A++;
-        if(output_flag==0)
+        //if(output_flag==0)
             {
                 output1=an_buffer[an_buffer_idx_A-1];
                 //output1=an_buffer[0];
